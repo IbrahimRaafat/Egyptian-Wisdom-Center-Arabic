@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ewc-blue: #4372a7;
+  --color-ewc-navy: #4372a7;
+  --color-ewc-gold: #dbae89;
+  --color-ewc-red: #ff0000;
+  --font-heading: var(--font-diplomata);
+  --font-sans: var(--font-tajawal);
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
