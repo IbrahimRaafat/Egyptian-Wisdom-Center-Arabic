@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Diplomata, Tajawal } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const diplomata = Diplomata({
@@ -38,6 +39,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </div>
+        <Analytics />
       </body>
     </html>
   );
