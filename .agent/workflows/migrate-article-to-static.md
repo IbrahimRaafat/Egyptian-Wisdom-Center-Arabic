@@ -55,10 +55,18 @@ Inject the Arabic text into the `div.prose` container, applying these styling ru
 3.  **Images:** Insert images in standard containers:
     ```tsx
     <div className="my-10">
-        <img src="/images/articles/[slug]/[name].jpg" alt="[Description]" className="w-full h-auto rounded-lg shadow-md mb-4" />
+        <img
+            src="/images/articles/[slug]/[name].jpg"
+            alt="[Description]"
+            className="w-full max-w-xl mx-auto block h-auto rounded-lg shadow-md mb-4 font-bold"
+        />
         <p className="text-sm font-bold text-gray-600">[Caption]</p>
     </div>
     ```
+    - **Standard Images:** Use `max-w-xl` (around 576px) for main illustrations.
+    - **Small Icons/Symbols:** Use `max-w-[300px]` or `max-w-xs`.
+    - **Book Covers:** Use `max-w-[200px]`.
+
 4.  **Lists:** Standardize lists to use bullets for parents and dashes for sub-points if requested.
 
 ### 6. Verification & Cleanup

@@ -37,8 +37,10 @@ export default function Header() {
                     </div>
                     <Link href="/performing-arts" className="hover:text-ewc-red transition-colors py-4">الفنون المسرحية</Link>
                     <Link href="/photo-library" className="hover:text-ewc-red transition-colors py-4">مكتبة الصور</Link>
+                    {/* 
                     <Link href="/forum" className="hover:text-ewc-red transition-colors py-4">منتدى النقاش</Link>
                     <Link href="/contact" className="hover:text-ewc-red transition-colors py-4">اتصل بنا</Link>
+                    */}
                 </nav>
 
                 {/* Mobile Menu Button */}
@@ -63,8 +65,10 @@ export default function Header() {
                         <Link href="/articles" className="py-2 border-b border-gray-50 hover:text-ewc-red" onClick={() => setIsMenuOpen(false)}>المقالات</Link>
                         <Link href="/performing-arts" className="py-2 border-b border-gray-50 hover:text-ewc-red" onClick={() => setIsMenuOpen(false)}>الفنون المسرحية</Link>
                         <Link href="/photo-library" className="py-2 border-b border-gray-50 hover:text-ewc-red" onClick={() => setIsMenuOpen(false)}>مكتبة الصور</Link>
+                        {/* 
                         <Link href="/forum" className="py-2 border-b border-gray-50 hover:text-ewc-red" onClick={() => setIsMenuOpen(false)}>منتدى النقاش</Link>
                         <Link href="/contact" className="py-2 border-b border-gray-50 hover:text-ewc-red" onClick={() => setIsMenuOpen(false)}>اتصل بنا</Link>
+                        */}
                     </div>
                 </div>
             )}
