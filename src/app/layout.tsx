@@ -32,7 +32,7 @@ export default function RootLayout({
       <body
         className={`${diplomata.variable} ${tajawal.variable} antialiased bg-gray-50 min-h-screen text-gray-800 font-sans`}
       >
-        <div className="max-w-[1200px] mx-auto bg-white min-h-screen shadow-[0_0_30px_rgba(47,99,157,0.15)] flex flex-col">
+        <div className="w-full max-w-[1200px] mx-auto bg-white min-h-screen shadow-[0_0_30px_rgba(47,99,157,0.15)] flex flex-col px-4 md:px-0">
           <Header />
           <main className="flex-grow">
             {children}

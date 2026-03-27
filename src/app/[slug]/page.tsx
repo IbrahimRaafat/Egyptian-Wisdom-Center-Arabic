@@ -2,6 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import { notFound } from 'next/navigation';
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
     const pagesDir = path.join(process.cwd(), 'src/data/pages');
     if (!fs.existsSync(pagesDir)) return [];
@@ -27,8 +29,8 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 
     return (
         <div className="container mx-auto px-4 py-8 mt-20" dir="rtl">
-            <h1 className="text-3xl font-bold text-center mb-8 text-[#dbae89]">{pageData.title}</h1>
-            <article className="prose prose-lg max-w-none dark:prose-invert prose-img:rounded-xl prose-img:shadow-lg prose-a:text-[#dbae89] hover:prose-a:text-[#c49a75] transition-colors"
+            <h1 className="text-3xl font-bold text-center mb-8 text-ewc-blue leading-loose text-balance">{pageData.title}</h1>
+            <article className="prose prose-lg max-w-none dark:prose-invert leading-loose prose-p:mb-12 prose-img:rounded-xl prose-img:shadow-lg prose-a:text-[#dbae89] hover:prose-a:text-[#c49a75] transition-colors"
                 dangerouslySetInnerHTML={{ __html: pageData.content }}
             />
         </div>

@@ -2,6 +2,8 @@ import Link from 'next/link';
 import categoriesData from '@/data/categories.json';
 import { notFound } from 'next/navigation';
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
     return categoriesData.map((category) => ({
         categorySlug: category.slug,
@@ -24,7 +26,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                   Ideally, the user will replace these with Arabic translations in the JSON,
                   but we'll display what we have for now, mimicking the exact style.
                 */}
-                <h1 className="text-4xl md:text-5xl font-heading text-[#dbae89] mb-6 leading-tight">
+                <h1 className="text-2xl md:text-3xl lg:text-4xl font-heading text-ewc-blue mb-6 leading-loose text-balance">
                     {category.title}
                 </h1>
                 <div className="w-24 h-1 bg-ewc-red mx-auto"></div>
@@ -36,7 +38,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                 ) : (
                     category.sections.map((section, idx) => (
                         <div key={idx} className="mb-8">
-                            {section.title !== 'General' && (
+                            {section.title !== 'General' && section.title !== 'عام' && (
                                 <h2 className="text-2xl font-bold text-ewc-red mb-4 font-sans">{section.title}</h2>
                             )}
                             <ul className="list-disc list-inside space-y-3 ps-4">
