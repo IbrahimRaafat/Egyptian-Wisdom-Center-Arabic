@@ -5,11 +5,16 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-12 pb-16 animate-fade-in">
       {/* Hero Section */}
-      <section className="flex flex-col md:flex-row items-center gap-12 px-8 py-16 bg-white border-b border-gray-100">
-        <div className="flex-1 space-y-6">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading text-ewc-blue leading-snug">
-            اكتشف أسرار<br /><span className="text-ewc-gold">مصر القديمة</span>
-          </h1>
+      <section className="flex flex-col md:flex-row items-center gap-16 px-8 py-16 bg-white border-b border-gray-100">
+        <div className="flex-1 space-y-8">
+          <div className="space-y-4">
+            <h1 className="text-xl md:text-2xl lg:text-3xl font-heading text-ewc-blue leading-loose max-w-full">
+              منصتكم التعليمية المتكاملة حول حضارة مصر القديمة
+            </h1>
+            <p className="text-lg md:text-xl font-sans text-ewc-gold font-medium mb-4">
+              دراسات معمقة ورؤى مترابطة
+            </p>
+          </div>
           <p className="text-xl text-gray-700 leading-relaxed font-sans max-w-2xl">
             ستندهش حين تكتشف كيف ترتكز الحضارة الحديثة بقوة على أكتاف مصر القديمة.
             يقدم هذا الموقع طريقين رئيسيين للتعلم، بأكثر من 10 لغات:
