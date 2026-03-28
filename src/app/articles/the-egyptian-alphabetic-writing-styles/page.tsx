@@ -15,7 +15,7 @@ export default function WritingStylesPage() {
                 <div className="w-24 h-1 bg-ewc-red mx-auto"></div>
             </header>
 
-            <div 
+            <div
                 className="prose prose-lg ltr:prose rtl:prose-reverse max-w-none font-sans text-gray-800 leading-loose 
                            prose-p:mb-12 prose-p:mt-0 
                            prose-h2:text-2xl prose-h2:font-bold prose-h2:text-ewc-red prose-h2:mb-6 prose-h2:mt-16 prose-h2:font-sans
@@ -23,104 +23,167 @@ export default function WritingStylesPage() {
             >
                 <h2 className="text-ewc-red font-bold">1. التصنيف الغربي المضلل للكتابات الأبجدية المصرية</h2>
                 <br />
-                <p>رغم كل الحقائق، اختلقت الأوساط الأكاديمية الغربية قصةً مفادها أن الكتابة الهيراطيقية تمثل تدهورًا للرموز التصويرية الهيروغليفية، وأن الكتابة الديموطيقية مثلت مزيدًا من التدهور للكتابة الهيراطيقية المتدهورة أصلًا! تتلخص هذه الخطة المضللة في إنكار أن مصر هي منشأ الأبجدية ونسب أبجديات حقيقية إلى دول أوروبية.</p>
+                <p>كما ذُكر سابقًا ورغم كل الحقائق اختلقت الأوساط الأكاديمية الغربية قصةً مفادها أن الكتابة الهيراطيقية تمثل تدهورًا للرموز التصويرية الهيروغليفية، وأن الكتابة الديموطيقية مثلت مزيدًا من التدهور للكتابة الهيراطيقية المتدهورة أصلًا! ثم اختلقوا قصةً أخرى مفادها أن المسيحيين في مصر تبنوا الأبجدية اليونانية وأضافوا إليها بعض أحرف الكتابة الديموطيقية المتدهورة ليستخدموها في كتاباتهم الدينية! لا توجد أي حقائق تدعم هذه الادعاءات. تتلخص هذه الخطة المضللة في شقين:</p>
+                <ul className="list-decimal pr-6 space-y-4">
+                    <li>إنكار أن مصر هي منشأ الأبجدية.</li>
+                    <li>نسب أبجديات حقيقية تحتوي على حروف علة إلى دولة أوروبية.</li>
+                </ul>
                 <br />
 
-                <h3 className="text-xl font-bold text-ewc-red mb-4">أ. النصوص الهيراطيقية (المقدسة)</h3>
+                <p>فيما يلي تصنيفات الأوساط الغربية الزائفة لأنماط الكتابة الأبجدية المصرية القديمة:</p>
                 <br />
-                <p>يزعم الأكاديميون الغربيون أن الكتابة "الهيراطيقية" هي شكل فريد من أشكال الكتابة المتصلة. لكن كلمة "هيراطيقي" تعني مقدس، ومن التناقض تسمية نصوص يومية عادية بـ "الهيراطيقية"! فكثير مما يُصنف هكذا هو مجرد ملصقات أواني أو سجلات عمل يومية.</p>
+                <h3 className="text-xl font-bold text-ewc-red mb-4">i. النصوص التي تُنسَب خطأً للكتابة الهيراطيقية</h3>
+                <br />
+                <p>يزعم الأكاديميون الغربيون خطأً أن الكتابة التي تُسمى "هيراطيقية" هي شكل فريد من أشكال الكتابة المتصلة للغة المصرية، ويزعمون كذلك أن هذا الأسلوب "الفريد" كان يستخدمه الكهنة على نطاق واسع في النصوص الأدبية والدينية وفي الوثائق التجارية والشخصية.</p>
+                <br />
+                <p>هذا زعم باطل ومضلل تمامًا، فكلمة "هيراطيقي" تعني مقدس/ديني، ومن التناقض تسمية كتابة لا تحمل أي غرض ديني/مقدس في الحياة اليومية بـ"الهيراطيقية"! لقد صنّفت الأوساط الأكاديمية الغربية كتابات مصرية ذات طبيعة يومية بحتة على أنها "هيراطيقية"، مثل تلك الموجودة على قطع الفخار والحجر المعروفة باسم "أوستراكا"، وكذلك الملصقات على الأواني!</p>
+                <br />
+                <p>لا يوجد أي شيء مقدس/هيراطيقي في ملصقات الزجاجات!</p>
+                <br />
+                <p>حتى رقائق الأوستراكا تحمل نقوشًا تُسمى خطأً "هيراطيقية" من قِبل الأكاديميين الغربيين! إن الكتابات الموجودة على هذه الشظايا الفخارية هي موضوعات عادية وليست دينية مثل الآتي:</p>
+                <ul className="list-disc pr-6 space-y-2">
+                    <li>سجلات العمل، ومذكرات العمل، وتقارير التفتيش.</li>
+                    <li>قوائم العمال، والمؤن، واللوازم.</li>
+                    <li>سجل زيارة أحد الزوار لموقع البناء.</li>
+                    <li>قائمة بأسماء أعضاء بعثة استخراج الأحجار.</li>
+                    <li>سجلات يومية للأعمال المنجزة.</li>
+                    <li>ملاحظات عن زيارات التفتيش التي قام بها الكتبة والرؤساء.</li>
+                    <li>قوائم بأسماء العمال المهرة وغير المهرة العاملين في موقع البناء.</li>
+                </ul>
+                <br />
 
-                <div className="my-10">
-                    <img 
-                        src="/images/articles/the-egyptian-alphabetic-writing-styles/mundane-ostraka.jpg" 
-                        alt="Mundane Ostraka Examples" 
-                        className="w-full max-w-lg mx-auto block h-auto rounded-lg shadow-md mb-4" 
+                <div className="my-10 text-center">
+                    <img
+                        src="/images/articles/the-egyptian-alphabetic-writing-styles/mundane-ostraka.jpg"
+                        alt="Mundane Ostraka Examples"
+                        className="w-full max-w-lg mx-auto block h-auto rounded-lg shadow-md mb-4"
                     />
-                    <p className="text-center text-sm font-bold text-gray-600">
-                        نماذج من رقائق "الأوستراكا" الفخارية التي تحمل موضوعات عادية وتم تصنيفها خطأً كـ "هيراطيقية".
+                    <p className="text-sm font-bold text-gray-600 italic">
+                        نماذج من رقائق "الأوستراكا" الفخارية التي تحمل موضوعات عادية وتم تصنيفها خطأً كـ "هيراطيقية" من قبل الأكاديميين الغربيين.
                     </p>
                 </div>
                 <br />
 
-                <h3 className="text-xl font-bold text-ewc-red mb-4">ب. النصوص الديموطيقية (الشعبية)</h3>
+                <h3 className="text-xl font-bold text-ewc-red mb-4">ii. نصوص ديموطيقية/شعبية</h3>
                 <br />
-                <p>يزعمون أن الخط الديموطيقي هو شكل فريد يُستخدم فقط في الشؤون الدنيوية. لكن الواقع يثبت استخدامه في النصوص الدينية أيضًا، مما ينفي سمة "الشعبية" المحضة التي أراد الغربيون حصرها فيها.</p>
+                <p>يزعم الأكاديميون الغربيون أن الخط الديموطيقي/الشعبي هو شكل فريد من أشكال الكتابة المتصلة للغة المصرية، ويزعمون أن هذا الأسلوب "الفريد" كان يُستخدم في الشؤون اليومية للمصريين القدماء، بل وأنه كانت نوعًا من الاختزال ليستخدم في الكتابة السريعة، فهو غني بالوصلات والاختصارات وغيرها من أساليب الاختصار. وبناءً على هذا تدّعي هذه الأكاديميات أن السجلات الديموطيقية تهيمن عليها المواد القانونية والإدارية والتجارية والمؤلفات الأدبية والنصوص العلمية وحتى النصوص الدينية التي كُتبت بخطٍّ أكثر جمالًا.</p>
+                <br />
+                <p>إذا كان الأكاديميين يزعمون أن هذا الخط استُخدم في النصوص الدينية والوثائق التجارية، فكيف يُمكن تسمية هذا الشكل السريع المتصل "ديموطيقي" وهو يُستخدم لأغراض مقدسة في الكتابة الدينية؟!.</p>
+                <br />
 
-                <div className="my-10">
-                    <img 
-                        src="/images/articles/the-egyptian-alphabetic-writing-styles/calligraphic-demotic.jpg" 
-                        alt="Calligraphic Demotic Sample" 
-                        className="w-full max-w-md mx-auto block h-auto rounded-lg shadow-md mb-4" 
+                <div className="my-10 text-center">
+                    <img
+                        src="/images/articles/the-egyptian-alphabetic-writing-styles/calligraphic-demotic.jpg"
+                        alt="Calligraphic Demotic Sample"
+                        className="w-full max-w-md mx-auto block h-auto rounded-lg shadow-md mb-4"
                     />
-                    <p className="text-center text-sm font-bold text-gray-600">
+                    <p className="text-sm font-bold text-gray-600 italic">
                         نموذج لخط "ديموطيقي" متقن يثبت استخدامه في أغراض فنية ومقدسة.
                     </p>
                 </div>
                 <br />
 
-                <h3 className="text-xl font-bold text-ewc-red mb-4">ج. النصوص القبطية</h3>
+                <h3 className="text-xl font-bold text-ewc-red mb-4">iii. النصوص القبطية</h3>
                 <br />
-                <p>يدعي الغربيون أن "القبطية" طُوّرت بتبني الأبجدية اليونانية. لكن الحقيقة هي أنها شكل من أشكال الكتابة المصرية القديمة بالأحرف الكبيرة، وقد أخذها اليونانيون عن المصريين.</p>
+                <p>يزعم الأكاديميون الغربيون أن القبطية هي شكلٌ فريدٌ من أشكال الكتابة المتصلة للغة المصرية القديمة، وهم يُصرّون على تكرار ومُخالفة الحقائق بأن شكلاً من الكتابة يُسمى "القبطية" طُوّر في حوالي عام 300 ميلادي ليستخدمه المسيحيين في مصر، وأن هذا الشكل يتألف من حروف أبجدية يونانية بالإضافة إلى ستة أحرف إضافية مُشتقة من الكتابة الديموطيقية المصرية القديمة للتعبير عن أصوات خاصة باللغة المصرية! يظهر أدناه "نص قبطي" من مخطوطات نجع حمادي مكتوب بأحرف كبيرة بنفس أشكال الحروف المصرية القديمة التي كانت معروفة قبل آلاف السنين من العصر اليوناني.</p>
+                <br />
 
-                <div className="my-10">
-                    <img 
-                        src="/images/articles/the-egyptian-alphabetic-writing-styles/nag-hammadi-coptic.jpg" 
-                        alt="Nag Hammadi Coptic Script" 
-                        className="w-full max-w-lg mx-auto block h-auto rounded-lg shadow-md mb-4" 
+                <div className="my-10 text-center">
+                    <img
+                        src="/images/articles/the-egyptian-alphabetic-writing-styles/nag-hammadi-coptic.jpg"
+                        alt="Nag Hammadi Coptic Script"
+                        className="w-full max-w-lg mx-auto block h-auto rounded-lg shadow-md mb-4"
                     />
-                    <p className="text-center text-sm font-bold text-gray-600">
-                        نص من مخطوطات نجع حمادي مكتوب بنفس أشكال الحروف المصرية القديمة.
+                    <p className="text-sm font-bold text-gray-600 italic">
+                        نص من مخطوطات نجع حمادي مكتوب بأحرف كبيرة بنفس أشكال الحروف المصرية القديمة.
                     </p>
                 </div>
                 <br />
 
-                <h2 className="text-ewc-red font-bold">2. النصان المصريان الأساسيان (الخط الكبير والخط المتصل)</h2>
-                <br />
-                <p>حدد كليمنت الإسكندري نمطين أساسيين للكتابة الأبجدية: أحدهما للاستخدام المنزلي/العادي، والآخر خاص بالكهنة حصراً للكتابات الدينية:</p>
+                <p>إن ما يُسمى بالنص القبطي أو اليوناني هو في الواقع شكل من أشكال الكتابة المصرية القديمة بأحرف كبيرة، وقد أخذه اليونانيون عن المصريين عندما قدموا إلى مصر كمرتزقة أو للدراسة وليس العكس. في القرن السابع عشر أقرّ الأب أثناسيوس كيرشر Athanasius Kircher في مؤلفاته التحليلية المُستفيضة بأن الكتابة اليونانية مصرية الأصل، ولذلك السبب سخر منه الأوروبيون.</p>
                 <br />
 
-                <div className="overflow-x-auto my-8">
-                    <table className="w-full border-collapse border border-gray-200 text-sm md:text-base">
+                <h2 className="text-ewc-red font-bold">2. النصان المصريان الأساسيان الحقيقيان (الخط الكبير والخط المتصل)</h2>
+                <br />
+                <p>يحدثنا كليمنت الإسكندري Clement of Alexandria في كتابه Stromata في الجزء الخامس في الفصل الرابع عن الأسلوبين الأساسيين الحقيقيين للكتابة الأبجدية، وكذلك الهيروغليفية المصرية التصويرية التي لا ترتبط بهما:</p>
+                <br />
+                <p>
+                    <strong>"إن الذين تلقوا التعليم بين المصريين يتعلمون أولًا أسلوب الكتابة المصري المسمى بالخط الإبستولوغرافي Epistolographic (المتصل، أي المؤلف كسلسلة من الأحرف)؛ وثانيًا الأسلوب الهيراطيقي الذي يستخدمه الكهنة والكتبة؛ وأخيرًا الهيروغليفية."</strong>
+                </p>
+                <br />
+                <p>ولم يذكر كليمنت قط أن الهيراطيقية المصرية كانت خطًا متصلًا أو مُنحدراً من الكتابة الهيروغليفية، بل الجدير بالذكر أن الهيروغليفية كانت آخر شكل ذكره. إن آخر نمط للكتابة وهو الهيروغليفية ليس حروفاً وكلمات، لكن كليمنت أكد ما أشار إليه جميع مؤرخي العصور القديمة: أن الهيروغليفية المصرية ذات طبيعة ثلاثية: محاكاة وتصوير ورموز.</p>
+                <br />
+                <p>لذا، حدد كليمنت الإسكندري نمطين أساسيين للكتابة الأبجدية: أحدهما للاستخدام المنزلي/العادي/العام، والآخر خاص بالكهنة المصريين ويُستخدم حصراً في الكتابات الدينية.</p>
+                <br />
+
+                <div className="overflow-x-auto my-12">
+                    <table className="w-full border-collapse border border-gray-200 text-right" dir="rtl">
                         <thead>
-                            <tr className="bg-gray-50">
-                                <th className="border border-gray-200 p-3 text-ewc-red font-bold">النمط المتصل</th>
-                                <th className="border border-gray-200 p-3 text-ewc-red font-bold">النمط الكهنوتي (الديني)</th>
+                            <tr className="bg-gray-100">
+                                <th className="border border-gray-300 p-4 font-bold text-ewc-red">النمط المتصل</th>
+                                <th className="border border-gray-300 p-4 font-bold text-ewc-red">النمط الكهنوتي (الديني)</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td className="border border-gray-200 p-3">خط انسيابي دائري موصول</td>
-                                <td className="border border-gray-200 p-3">مربع، غير مائل، أحرف كبيرة منفصلة</td>
+                                <td className="border border-gray-200 p-4">خط انسيابي دائري</td>
+                                <td className="border border-gray-200 p-4">مربع، غير مائل، مُجزأ</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-200 p-3">سهل الكتابة (كوفي)</td>
-                                <td className="border border-gray-200 p-3">سهل القراءة (بصري)</td>
+                                <td className="border border-gray-200 p-4">موصول</td>
+                                <td className="border border-gray-200 p-4">أحرف كبيرة تُكتب منفصلة</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-200 p-3">للشؤون المحلية والدنيوية</td>
-                                <td className="border border-gray-200 p-3">للشؤون اللاهوتية والدينية</td>
+                                <td className="border border-gray-200 p-4">خط يدوي (كوفي)</td>
+                                <td className="border border-gray-200 p-4">خط رسمي لكتابة الكتب</td>
+                            </tr>
+                            <tr>
+                                <td className="border border-gray-200 p-4">سهل الكتابة</td>
+                                <td className="border border-gray-200 p-4">سهل القراءة</td>
+                            </tr>
+                            <tr>
+                                <td className="border border-gray-200 p-4">يستخدم للشؤون المحلية (الدنيوية/المدنية)</td>
+                                <td className="border border-gray-200 p-4">يستخدم للشؤون اللاهوتية</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
+                <br />
 
-                <div className="my-10">
-                    <img 
-                        src="/images/articles/the-egyptian-alphabetic-writing-styles/ebers-papyrus-sample.jpg" 
-                        alt="Ebers Papyrus Sample" 
-                        className="w-full max-w-xl mx-auto block h-auto rounded-lg shadow-md mb-4" 
+                <p>من أجل تسهيل الأمر على القراء الذين ضُلِّلوا بتصنيفات الأكاديميين الغربيين الخاطئة نقدم هنا التوصيفات الصحيحة مع الإشارة إلى أنماط الكتابة المصرية التي أخطأت الأوساط الأكاديمية الغربية في تصنيفها:</p>
+                <br />
+                <p><strong>أولًا: النمط المتصل الأنيق</strong> <span className="text-sm font-normal text-gray-500">(الذي أخطأت الأوساط الأكاديمية الغربية في تصنيفه على أنه نمط هيراطيقي).</span></p>
+                <br />
+                <p>كان هذا النمط يُعتنى باستخدامه في الوثائق القانونية والمهنية والعلمية والطبية والحكومية. وقد كُتِبَت هذه الوثائق بدقة متناهية على يد كتّاب متخصصين ذوي كفاءة عالية وفقًا لمعايير محددة لكل موضوع. وكما هو الحال في جميع الكتابات المصرية المتصلة كان الخط المتصل يُستخدم أو لا يُستخدم وفقًا لنظام محدد، ولذلك يظهر أن بعض الحروف تتخذ أشكالًا مختلفة حسب موضعها في الكلمة.</p>
+                <br />
+
+                <div className="my-10 text-center">
+                    <img
+                        src="/images/articles/the-egyptian-alphabetic-writing-styles/ebers-papyrus-sample.jpg"
+                        alt="Ebers Papyrus Sample"
+                        className="w-full max-w-xl mx-auto block h-auto rounded-lg shadow-md mb-4"
                     />
-                    <p className="text-center text-sm font-bold text-gray-600">
-                        نموذج من بردية "إيبرس" يمثل النمط المتصل الأنيق.
+                    <p className="text-sm font-bold text-gray-600 italic">
+                        يُظهر الشكل أعلاه نموذجًا للنمط الذي أخطأت الأوساط الأكاديمية الغربية في تصنيفه على أنه النص الهيراطيقي، وهو يظهر في بردية إيبرس.
                     </p>
                 </div>
                 <br />
 
+                <p><strong>ثانيًا: النمط السلس العام</strong> <span className="text-sm font-normal text-gray-500">(الذي يُطلق عليه خطأً من قِبل الأكاديميين الغربيين "النمط الديموطيقي")</span></p>
+                <br />
+                <p>النصوص التي لا تكن لتُستخدم في السجلات العامة بل في المعاملات التجارية والشؤون اليومية لم تكن مُقيدة بأي شكل للخط المستخدم أو معيار مُحدد، ولم يكن يُنفذها كُتّاب رسميون. شملت هذه الفئة الرسائل الخاصة، وكان يتم ربط الأحرف أو عدم ربطها وفقًا لنظام مُحدد. تكرر في هذا النمط استخدام الاختصارات وظهور اختلافات طفيفة ناتجة عن الكتابة الفردية غير المحترفة.</p>
+                <br />
+
+                <p><strong>ثالثًا: النمط المقدس/الهيراطيقي</strong> <span className="text-sm font-normal text-gray-500">(الذي يُطلق عليه خطأً في الأوساط الأكاديمية الغربية "النمط القبطي")</span></p>
+                <br />
+                <p>استخدم الكهنة المصريون القدماء في كتاباتهم المقدسة الحروف الكبيرة غير المتصلة. ورغم كل ما يُثار من جدل وادعاءات أكاديمية لا يوجد نص ديني مصري واحد مكتوب بما أطلقوا عليه خطأً اسم "النص الهيراطيقي" وهو كتابة متصلة وليست بأحرف كبيرة. أطلقت الأوساط الأكاديمية الغربية اسم "القبطي" على الكتابة الحقيقية بالأحرف الكبيرة الذي استخدمها المصريون القدماء لأغراض دينية، ولكن لا يوجد أي سجل تاريخي يُؤكد مزاعمهم الملفقة.</p>
+                <br />
+
                 <div className="my-10 border-t pt-10">
-                    <img 
-                        src="/images/articles/the-original-universal-language/universal-writing-modes-cover.jpg" 
-                        alt="Ancient Egyptian Universal Writing Modes Book Cover" 
-                        className="w-full max-w-[200px] mx-auto block h-auto rounded-lg shadow-lg mb-4 font-bold" 
+                    <img
+                        src="/images/articles/the-original-universal-language/universal-writing-modes-cover.jpg"
+                        alt="Ancient Egyptian Universal Writing Modes Book Cover"
+                        className="w-full max-w-[200px] mx-auto block h-auto rounded-lg shadow-lg mb-4 font-bold"
                     />
                     <p className="text-center text-sm font-bold text-ewc-blue">
                         مقتطف من كتاب "كشف أنماط الكتابة العالمية المصرية القديمة" لمصطفى جاد الله

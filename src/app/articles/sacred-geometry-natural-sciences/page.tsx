@@ -21,7 +21,7 @@ export default function SacredGeometryPage() {
                            prose-h2:text-2xl prose-h2:font-bold prose-h2:text-ewc-red prose-h2:mb-6 prose-h2:mt-16 prose-h2:font-sans
                            prose-img:rounded-md prose-img:shadow-sm"
             >
-                <h2 className="text-ewc-red font-bold">1. الهندسة المقدسة</h2>
+                {/* <h2 className="text-ewc-red font-bold">1. الهندسة المقدسة</h2> */}
                 <br />
                 <p>كانت الهندسة عند المصريين القدماء أكثر من مجرد دراسة النقاط والخطوط والأسطح والمجسمات وخصائصها وقياساتها. لقد أدرك المصريون التناغم الكامن في الهندسة، فهي أبلغ تعبير عن قدرة الخالق وخطته التي تتمثل في مكونات الكون كله، إنها خطة من وراء الطبيعة ولكنها هي التي تحدد الواقع المادي.</p>
                 <br />
@@ -30,7 +30,7 @@ export default function SacredGeometryPage() {
                 <p>علم الهندسة المقدسة لا يقتصر على دراسة نسب الأشكال الهندسية فحسب بل يتناول أيضًا العلاقات التوافقية بين الأجزاء والكل، مثل علاقة أجزاء الإنسان ببعضها، وبنية النباتات والحيوانات، وتكوينات البلورات والأجسام الطبيعية، جميعها تجليات لاستمرارية الكون.</p>
                 <br />
 
-                <h2 className="text-ewc-red font-bold">2. التناسب التوافقي</h2>
+                {/* <h2 className="text-ewc-red font-bold">2. التناسب التوافقي</h2> */}
                 <br />
                 <p>يكمن مفتاح التناسب الإلهي المتناغم (الهندسة المقدسة) في العلاقة بين تدرج النمو والتناسب، فالتناسب المتناغم والتدرج هما جوهر الكون المخلوق، وهذا مُتحقق في الطبيعة المحيطة بنا فهي مخلوقة بهذه العلاقة التوافقية. هذا تدرج التوافقي يتبع تسلسلًا يُعرف في الغرب باسم "تسلسل فيبوناتشي Fibonacci".</p>
                 <br />
@@ -39,7 +39,7 @@ export default function SacredGeometryPage() {
                 <p>وهذا التسلسل ينعكس في الطبيعة مثل في: عدد بذور زهرة عباد الشمس، وبتلات أي زهرة، وترتيب مخاريط الصنوبر، ونمو صدفة النوتيلوس، وغيرها، كلها تتبع نفس نمط التسلسل.</p>
                 <br />
 
-                <h2 className="text-ewc-red font-bold">3. تسلسل الخلاصة في العمارة المصرية</h2>
+                {/* <h2 className="text-ewc-red font-bold">3. تسلسل الخلاصة في العمارة المصرية</h2> */}
                 <br />
                 <p>تشير الأدلة إلى أن المصريين القدماء كانوا على دراية بتسلسل الخلاصة. تُظهر التخطيطات المصرية القديمة للمعابد والمقابر على مرّ تاريخها الطويل أن الركائز الأساسية للمعابد مُرتبة حسب محورها الطولي وفقًا للأعداد المتتالية في تسلسل الخلاصة (2، 3، 5، 8، 13، 21، 34، 55، 89، 144، 233، 377، 610...إلخ).</p>
                 <br />
@@ -53,7 +53,7 @@ export default function SacredGeometryPage() {
                     <img
                         src="/images/articles/sacred-geometry-natural-sciences/temple-plan-summation-series.jpg"
                         alt="Temple Plan and Summation Series Diagram"
-                        className="w-full max-w-[250px] mx-auto block h-auto rounded-lg shadow-md mb-4 font-bold"
+                        className="w-full max-w-[200px] mx-auto block h-auto rounded-lg shadow-md mb-4 font-bold"
                     />
                 </div>
                 <br />

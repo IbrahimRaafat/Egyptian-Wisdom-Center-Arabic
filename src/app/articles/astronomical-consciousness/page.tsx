@@ -79,7 +79,7 @@ export default function AstronomicalConsciousnessPage() {
                 <br />
                 <p>تنعكس معرفة المصريين القدماء بالتوقيت على تقسيمهم لليوم إلى اثنتي عشرة ساعة نهارًا واثنتي عشرة ساعة ليلًا. لم يكن طول الساعة ثابتًا، بل كان يتغير بتغير الفصول. فالأيام الطويلة في الصيف تعني ساعات أطول للنهار، والعكس صحيح في أشهر الشتاء. ويومي ٢١ مارس و٢٣ سبتمبر عندما تعبر الشمس خط الاستواء ويتساوى طول الليل والنهار في كل مكان يعرفان باسم "الاعتدالين" (تساوي الليل والنهار). يدل تغير طول الساعة على فهمهم للاعتدالين، بالإضافة إلى فهمهم الكامل لقياس الوقت بدقة كما هو موضح أدناه.</p>
                 <div className="my-8">
-                    <img src="/images/articles/astronomical-consciousness/earth-sun-equinox.jpg" alt="Earth Sun Equinox Diagram" className="w-full max-w-2xl mx-auto block h-auto rounded-lg shadow-md mb-2" />
+                    <img src="/images/articles/astronomical-consciousness/earth-sun-equinox.jpg" alt="Earth Sun Equinox Diagram" className="w-full max-w-[350px] mx-auto block h-auto rounded-lg shadow-md mb-2" />
                 </div>
                 <br />
                 <br />
@@ -97,7 +97,7 @@ export default function AstronomicalConsciousnessPage() {
                 <br />
                 <p>إن قوائم العشار أو نجوم الأيام العشرة (المجموعات النجمية) المرتبطة بجداول الساعة للنجوم كانت تستخدم بالفعل كما وُجِدت على التوابيت الخاصة بالأسرتين الحادية عشرة والثانية عشرة في أسيوط.</p>
                 <div className="my-8">
-                    <img src="/images/articles/astronomical-consciousness/ramses-ix-star-list.jpg" alt="Star List Chart" className="w-full max-w-2xl mx-auto block h-auto rounded-lg shadow-md mb-2" />
+                    <img src="/images/articles/astronomical-consciousness/ramses-ix-star-list.jpg" alt="Star List Chart" className="w-full max-w-md mx-auto block h-auto rounded-lg shadow-md mb-2" />
                     <p className="text-sm font-bold text-gray-600">قائمة النجوم في السادس عشر من شهر بابه Babeh (باوفي Paophi) الموافق 27 أكتوبر من مقبرة رمسيس التاسع في تا-أبيت Ta-Apet (طيبة Thebes).</p>
                 </div>
                 <br />
@@ -138,7 +138,7 @@ export default function AstronomicalConsciousnessPage() {
                 <br />
                 <p>إن تأثير حركة توأم الشمس والقمر على الأرض تسبب التتابع، فكلاهما يشد بفعل الجاذبية ويتسببان في النتوء الاستوائي للأرض. يحاول القمر جذب هذا النتوء إلى مداره حول الأرض، بينما تحاول الشمس جذبه إلى مدار الأرض حول الشمس، ونتيجةً لذلك لا تدور الأرض حول محورها عن حق ولكن تدور بشكلٍ أشبه بلعبة الدوارة وهي منحرفة انحرافًا طفيفًا عن مركزها، وهذا يجعل محور الأرض يُنشئ مخروطًا مزدوجًا في الفضاء مرتكزًا مع مركز الأرض بدرجة من التمايل، وتُسمى هذه الحركة "الترنّح".</p>
                 <div className="my-8">
-                    <img src="/images/articles/astronomical-consciousness/earth-sun-equinox.jpg" alt="Precession Diagram" className="w-full max-w-2xl mx-auto block h-auto rounded-lg shadow-md" />
+                    <img src="/images/articles/astronomical-consciousness/earth-sun-equinox.jpg" alt="Precession Diagram" className="w-full max-w-xs mx-auto block h-auto rounded-lg shadow-md" />
                 </div>
                 <br />
                 <br />

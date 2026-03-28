@@ -15,7 +15,7 @@ export default function OriginalUniversalLanguagePage() {
                 <div className="w-24 h-1 bg-ewc-red mx-auto"></div>
             </header>
 
-            <div 
+            <div
                 className="prose prose-lg ltr:prose rtl:prose-reverse max-w-none font-sans text-gray-800 leading-loose 
                            prose-p:mb-12 prose-p:mt-0 
                            prose-h2:text-2xl prose-h2:font-bold prose-h2:text-ewc-red prose-h2:mb-6 prose-h2:mt-16 prose-h2:font-sans
@@ -35,10 +35,10 @@ export default function OriginalUniversalLanguagePage() {
                 <p>إن "تحوت" المذكور أعلاه في حوارات أفلاطون المجمعة هو نفسه "تحوت" المذكور في محاورة فايدروس Phaedrus حيث ذكر صراحةً أنه كان نيترو مصري قديم <strong>"والذي يُسمى طائره المقدس: أبو منجل"</strong>، وذلك لقطع أي شك في هويته. من الواضح أن روايته تستند إلى تقليد مصري أصيل لأن تحوت ذو رأس أبو منجل هو نيترو مصري.</p>
 
                 <div className="my-10">
-                    <img 
-                        src="/images/articles/the-original-universal-language/thoth-writing.jpg" 
-                        alt="Thoth (Theuth) writing on a tablet" 
-                        className="w-full max-w-[200px] mx-auto block h-auto rounded-lg shadow-md mb-4 font-bold" 
+                    <img
+                        src="/images/articles/the-original-universal-language/thoth-writing.jpg"
+                        alt="Thoth (Theuth) writing on a tablet"
+                        className="w-full max-w-[150px] mx-auto block h-auto rounded-lg shadow-md mb-4 font-bold"
                     />
                     <p className="text-center text-sm font-bold text-ewc-blue">
                         يُصوَّر تحوت على هيئة شخص له رأس الطائر أبو منجل وهو يكتب على لوح.
@@ -78,10 +78,10 @@ export default function OriginalUniversalLanguagePage() {
                 </ul>
 
                 <div className="my-10 border-t pt-10">
-                    <img 
-                        src="/images/articles/the-original-universal-language/universal-writing-modes-cover.jpg" 
-                        alt="Ancient Egyptian Universal Writing Modes Book Cover" 
-                        className="w-full max-w-[200px] mx-auto block h-auto rounded-lg shadow-lg mb-4 font-bold" 
+                    <img
+                        src="/images/articles/the-original-universal-language/universal-writing-modes-cover.jpg"
+                        alt="Ancient Egyptian Universal Writing Modes Book Cover"
+                        className="w-full max-w-[200px] mx-auto block h-auto rounded-lg shadow-lg mb-4 font-bold"
                     />
                     <p className="text-center text-sm font-bold text-ewc-blue">
                         مقتطف من كتاب "كشف أنماط الكتابة العالمية المصرية القديمة" لمصطفى جاد الله

@@ -30,7 +30,7 @@ export default function MedicalLibraryPage() {
                 <p>تطور رمز العين المصري تدريجيًا ليصبح رمز الوصفة الطبية المعروف اليوم: "Rx" والذي يُستخدم في جميع أنحاء العالم بغض النظر عن اللغة.</p>
 
                 <div className="my-10">
-                    <img src="/images/articles/advanced-egyptian-medical-library/rx-eye-of-horus.jpg" alt="Eye of Horus Rx Symbol" className="w-full max-w-[200px] mx-auto block h-auto rounded-lg shadow-md mb-4 font-bold" />
+                    <img src="/images/articles/advanced-egyptian-medical-library/rx-eye-of-horus.jpg" alt="Eye of Horus Rx Symbol" className="w-full max-w-[100px] mx-auto block h-auto rounded-lg shadow-md mb-4 font-bold" />
                 </div>
                 <br />
 

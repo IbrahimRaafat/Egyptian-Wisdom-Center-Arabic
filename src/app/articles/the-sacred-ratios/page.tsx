@@ -15,7 +15,7 @@ export default function SacredRatiosPage() {
                 <div className="w-24 h-1 bg-ewc-red mx-auto"></div>
             </header>
 
-            <div 
+            <div
                 className="prose prose-lg ltr:prose rtl:prose-reverse max-w-none font-sans text-gray-800 leading-loose 
                            prose-p:mb-12 prose-p:mt-0 
                            prose-h2:text-2xl prose-h2:font-bold prose-h2:text-ewc-red prose-h2:mb-6 prose-h2:mt-16 prose-h2:font-sans
@@ -43,12 +43,12 @@ export default function SacredRatiosPage() {
                 <p>الفهرس الدائري هو التمثيل الوظيفي للدائرة، أي النسبة بين محيط الدائرة وقطرها. اشتهرت هذه القيمة في الأوساط الأكاديمية الغربية بالحرف اليوناني باي pi (π)، وقيمتها 3.1415927.</p>
                 <br />
                 <p>ظهرت معرفة المصريون القدماء بخصائص الدائرة والمنحنيات في أوائل السجلات المكتشفة. فقد ورد في سجلاتهم التاريخية التي تعود إلى الأسرة الثالثة (حوالي 2630 قبل الميلاد) وصفٌ لمنحنى سقف في سقارة باستخدام نظام النظير (موضح أدناه)، وهذا يدل على أن معرفتهم بالدائرة مكّنتهم من حساب وقياس مقدار المنحنى الرأسي، وبناءً على هذا التزم عمال البناء بأبعاد دقيقة لضبط المنحنيات الدائرية.</p>
-                
+
                 <div className="my-10">
-                    <img 
-                        src="/images/articles/sacred-proportions/saqqara-roof-curve.jpg" 
-                        alt="Saqqara Roof Curve Definition Diagram" 
-                        className="w-full max-w-[250px] mx-auto block h-auto rounded-lg shadow-md mb-4 font-bold" 
+                    <img
+                        src="/images/articles/the-sacred-ratios/saqqara-roof-curve.jpg"
+                        alt="Saqqara Roof Curve Definition Diagram"
+                        className="w-full max-w-[150px] mx-auto block h-auto rounded-lg shadow-md mb-4 font-bold"
                     />
                     <p className="text-center text-sm font-bold text-gray-600">
                         سجل من الأسرة الثالثة يوضح تعريف منحنى سقف في سقارة بنظام الإحداثيات.
@@ -70,21 +70,21 @@ export default function SacredRatiosPage() {
                     <li>يرتكز عرض الفتحة على مربع محفور داخل نصف دائرة، وهي الطريقة المصرية القديمة الشائعة لتحديد نسبة جذر 5 للمستطيل، وبالتالي فإن سمك قائم الباب يساوي 0.618 من عرض الفتحة.</li>
                     <li>ارتفاع الفتحة (h) = 3.1415 = **باي**.</li>
                 </ul>
-                
+
                 <div className="my-10">
-                    <img 
-                        src="/images/articles/sacred-proportions/doorway-phi-pi.jpg" 
-                        alt="Ancient Egyptian Doorway Layout Phi and Pi Diagram" 
-                        className="w-full max-w-[300px] mx-auto block h-auto rounded-lg shadow-md mb-4 font-bold" 
+                    <img
+                        src="/images/articles/the-sacred-ratios/doorway-phi-pi.jpg"
+                        alt="Ancient Egyptian Doorway Layout Phi and Pi Diagram"
+                        className="w-full max-w-[200px] mx-auto block h-auto rounded-lg shadow-md mb-4 font-bold"
                     />
                 </div>
                 <br />
 
                 <div className="my-10 border-t pt-10">
-                    <img 
-                        src="/images/articles/sacred-proportions/egyptian-culture-revealed-cover.jpg" 
-                        alt="Ancient Egyptian Culture Revealed Book Cover" 
-                        className="w-full max-w-[200px] mx-auto block h-auto rounded-lg shadow-lg mb-4 font-bold" 
+                    <img
+                        src="/images/articles/the-sacred-ratios/egyptian-culture-revealed-cover.jpg"
+                        alt="Ancient Egyptian Culture Revealed Book Cover"
+                        className="w-full max-w-[200px] mx-auto block h-auto rounded-lg shadow-lg mb-4 font-bold"
                     />
                     <p className="text-center text-sm font-bold text-ewc-blue">
                         مقتطف من كتاب "كشف الثقافة المصرية القديمة" لمصطفى جاد الله
