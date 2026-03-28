@@ -22,16 +22,40 @@ export default function Header() {
                             المقالات
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                         </Link>
-                        <div className="absolute top-full right-0 w-[700px] bg-[#333333] hidden group-hover:block shadow-2xl z-50">
-                            <div className="grid grid-cols-2 gap-x-8 gap-y-4 p-8">
-                                <Link href="/articles/category/egyptian-society" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-600 pb-2">الآثار والأراضي والشعوب في مصر</Link>
-                                <Link href="/articles/category/the-social-and-political-system" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-600 pb-2">النظام الاجتماعي والسياسي</Link>
-                                <Link href="/articles/category/egyptian-cosmic-religion" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-600 pb-2">الديانة الكونية المصرية</Link>
-                                <Link href="/articles/category/egyptian-architecture-function-and-form-sacred-geometryetc" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-600 pb-2">العمارة المصرية</Link>
-                                <Link href="/articles/category/egyptian-ideograms-pictorial-representations-and-meanings" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-600 pb-2">التصويرات المصرية</Link>
-                                <Link href="/articles/category/learned-ancient-egyptians" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-600 pb-2">المصريون القدماء المتعلمون</Link>
-                                <Link href="/articles/category/the-egyptian-musical-heritage" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-600 pb-2">التراث الموسيقي المصري</Link>
-                                <Link href="/articles/category/vibrant-ancient-egyptian-economy" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-600 pb-2">الاقتصاد المصري القديم النابض بالحياة</Link>
+                        <div className="absolute top-full left-1/2 -translate-x-1/2 w-[700px] max-w-[calc(100vw-2rem)] bg-[#333333] hidden group-hover:block shadow-2xl z-50 rounded-b-lg border-t-4 border-ewc-red animate-fade-in">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 p-6">
+                                <Link href="/articles/category/egyptian-society" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-700/50 pb-2 flex items-center gap-2 hover:bg-white/5 p-2 rounded">
+                                    <span className="w-1.5 h-1.5 bg-ewc-red rounded-full"></span>
+                                    الآثار والأراضي والشعوب في مصر
+                                </Link>
+                                <Link href="/articles/category/the-social-and-political-system" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-700/50 pb-2 flex items-center gap-2 hover:bg-white/5 p-2 rounded">
+                                    <span className="w-1.5 h-1.5 bg-ewc-red rounded-full"></span>
+                                    النظام الاجتماعي والسياسي
+                                </Link>
+                                <Link href="/articles/category/egyptian-cosmic-religion" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-700/50 pb-2 flex items-center gap-2 hover:bg-white/5 p-2 rounded">
+                                    <span className="w-1.5 h-1.5 bg-ewc-red rounded-full"></span>
+                                    الديانة الكونية المصرية
+                                </Link>
+                                <Link href="/articles/category/egyptian-architecture-function-and-form-sacred-geometryetc" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-700/50 pb-2 flex items-center gap-2 hover:bg-white/5 p-2 rounded">
+                                    <span className="w-1.5 h-1.5 bg-ewc-red rounded-full"></span>
+                                    العمارة المصرية
+                                </Link>
+                                <Link href="/articles/category/egyptian-ideograms-pictorial-representations-and-meanings" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-700/50 pb-2 flex items-center gap-2 hover:bg-white/5 p-2 rounded">
+                                    <span className="w-1.5 h-1.5 bg-ewc-red rounded-full"></span>
+                                    التصويرات المصرية
+                                </Link>
+                                <Link href="/articles/category/learned-ancient-egyptians" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-700/50 pb-2 flex items-center gap-2 hover:bg-white/5 p-2 rounded">
+                                    <span className="w-1.5 h-1.5 bg-ewc-red rounded-full"></span>
+                                    المصريون القدماء المتعلمون
+                                </Link>
+                                <Link href="/articles/category/the-egyptian-musical-heritage" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-700/50 pb-2 flex items-center gap-2 hover:bg-white/5 p-2 rounded">
+                                    <span className="w-1.5 h-1.5 bg-ewc-red rounded-full"></span>
+                                    التراث الموسيقي المصري
+                                </Link>
+                                <Link href="/articles/category/vibrant-ancient-egyptian-economy" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-700/50 pb-2 flex items-center gap-2 hover:bg-white/5 p-2 rounded">
+                                    <span className="w-1.5 h-1.5 bg-ewc-red rounded-full"></span>
+                                    الاقتصاد المصري القديم النابض بالحياة
+                                </Link>
                             </div>
                         </div>
                     </div>
