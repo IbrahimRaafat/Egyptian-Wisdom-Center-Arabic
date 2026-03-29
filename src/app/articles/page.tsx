@@ -9,14 +9,10 @@ export const metadata: Metadata = {
 const categories = [
     { slug: "egyptian-society", title: "الآثار والأراضي والشعوب في مصر" },
     { slug: "the-social-and-political-system", title: "النظام الاجتماعي والسياسي" },
-    { slug: "egyptian-cosmic-religion", title: "الديانة الكونية المصرية 🔴" },
     { slug: "egyptian-architecture-function-and-form-sacred-geometryetc", title: "العمارة المصرية" },
     { slug: "egyptian-ideograms-pictorial-representations-and-meanings", title: "التصويرات المصرية" },
     { slug: "learned-ancient-egyptians", title: "المصريون القدماء المتعلمون" },
-    { slug: "the-egyptian-musical-heritage", title: "التراث الموسيقي المصري 🔴" },
-    { slug: "vibrant-ancient-egyptian-economy", title: "الاقتصاد المصري القديم النابض بالحياة 🔴" },
-    { slug: "ancient-egypt-bible", title: "مصر القديمة والكتاب المقدس 🔴" },
-    { slug: "egypt-and-the-world-past-and-present", title: "مصر والعالم - الماضي والحاضر 🔴" }
+    { slug: "egyptian-cosmic-religion", title: "الديانة الكونية المصرية" }
 ];
 
 export default function ArticlesPage() {

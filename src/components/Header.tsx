@@ -32,10 +32,6 @@ export default function Header() {
                                     <span className="w-1.5 h-1.5 bg-ewc-red rounded-full"></span>
                                     النظام الاجتماعي والسياسي
                                 </Link>
-                                <Link href="/articles/category/egyptian-cosmic-religion" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-700/50 pb-2 flex items-center gap-2 hover:bg-white/5 p-2 rounded">
-                                    <span className="w-1.5 h-1.5 bg-ewc-red rounded-full"></span>
-                                    الديانة الكونية المصرية
-                                </Link>
                                 <Link href="/articles/category/egyptian-architecture-function-and-form-sacred-geometryetc" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-700/50 pb-2 flex items-center gap-2 hover:bg-white/5 p-2 rounded">
                                     <span className="w-1.5 h-1.5 bg-ewc-red rounded-full"></span>
                                     العمارة المصرية
@@ -48,13 +44,9 @@ export default function Header() {
                                     <span className="w-1.5 h-1.5 bg-ewc-red rounded-full"></span>
                                     المصريون القدماء المتعلمون
                                 </Link>
-                                <Link href="/articles/category/the-egyptian-musical-heritage" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-700/50 pb-2 flex items-center gap-2 hover:bg-white/5 p-2 rounded">
+                                <Link href="/articles/category/egyptian-cosmic-religion" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-700/50 pb-2 flex items-center gap-2 hover:bg-white/5 p-2 rounded">
                                     <span className="w-1.5 h-1.5 bg-ewc-red rounded-full"></span>
-                                    التراث الموسيقي المصري
-                                </Link>
-                                <Link href="/articles/category/vibrant-ancient-egyptian-economy" className="text-gray-300 hover:text-white text-sm transition-colors border-b border-gray-700/50 pb-2 flex items-center gap-2 hover:bg-white/5 p-2 rounded">
-                                    <span className="w-1.5 h-1.5 bg-ewc-red rounded-full"></span>
-                                    الاقتصاد المصري القديم النابض بالحياة
+                                    الديانة الكونية المصرية
                                 </Link>
                             </div>
                         </div>
