@@ -1,0 +1,22 @@
+
+> ewc@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 3.7s
+  Running TypeScript ...
+Failed to compile.
+
+./src/app/articles/the-cosmic-proportion-of-the-human-figure-2/page.tsx:65:67
+Type error: Type 'string' is not assignable to type 'number'.
+
+  63 |                 </div>
+  64 |
+> 65 |                 <ol className="list-decimal pr-6 space-y-4 mb-10" start="2">
+     |                                                                   ^
+  66 |                     <li className="font-bold text-ewc-navy">
+  67 |                         ╪¿┘è┘å ╪º┘ä╪¼╪▓╪ú┘è┘å ┘ê╪º┘ä┘ê╪¡╪»╪⌐ ╪º┘ä┘â┘ä┘è╪⌐ (╪º┘ä╪º╪▒╪¬┘ü╪º╪╣ ╪º┘ä┘à┘é╪»╪│) ┘ê╪¿╪º╪¬╪«╪º╪░ ╪º┘ä╪º╪▒╪¬┘ü╪º╪╣ ╪º┘ä┘â╪º┘à┘ä (╪¡╪¬┘ë ┘à┘å╪¿╪¬ ╪┤╪╣╪▒ ╪▒╪ú╪│ ╪º┘ä╪Ñ┘å╪│╪º┘å ╪º┘ä╪ú╪▒╪╢┘è) ╪º┘ä╪▒┘é┘à 1:
+  68 |                         <p className="mt-4 font-normal text-gray-700 leading-relaxed">
+Next.js build worker exited with code: 1 and signal: null

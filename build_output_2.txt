@@ -1,0 +1,80 @@
+
+> ewc@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 3.8s
+  Running TypeScript ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/166) ...
+  Generating static pages using 7 workers (41/166) 
+  Generating static pages using 7 workers (82/166) 
+  Generating static pages using 7 workers (124/166) 
+Γ£ô Generating static pages using 7 workers (166/166) in 2.9s
+  Finalizing page optimization ...
+
+Route (app)
+Γöî Γùï /
+Γö£ Γùï /_not-found
+Γö£ ΓùÅ /[slug]
+Γöé Γö£ /contact
+Γöé Γö£ /discussion-forum
+Γöé Γö£ /ecritures-sur-les-murs-egyptiens
+Γöé Γöö [+49 more paths]
+Γö£ Γùï /articles
+Γö£ ΓùÅ /articles/[slug]
+Γöé Γö£ /articles/107
+Γöé Γö£ /articles/117
+Γöé Γö£ /articles/118
+Γöé Γöö [+63 more paths]
+Γö£ Γùï /articles/advanced-egyptian-medical-library
+Γö£ Γùï /articles/ancient-egyptian-settlements-throughout-the-world-2
+Γö£ Γùï /articles/arabic-the-stolen-egyptian-language
+Γö£ Γùï /articles/astronomical-consciousness
+Γö£ ΓùÅ /articles/category/[categorySlug]
+Γöé Γö£ /articles/category/egyptian-society
+Γöé Γö£ /articles/category/the-social-and-political-system
+Γöé Γö£ /articles/category/egyptian-cosmic-religion
+Γöé Γöö [+3 more paths]
+Γö£ Γùï /articles/egyptian-monotheism-and-polytheism
+Γö£ Γùï /articles/energy-flow-and-connectivity-in-egyptian-works-2
+Γö£ Γùï /articles/false-doors-the-physical-metaphysical-threshold-2
+Γö£ Γùï /articles/how-the-one-universal-language-transformed
+Γö£ Γùï /articles/images-language-of-the-mind-consciousness-divine-2
+Γö£ Γùï /articles/isis-the-seat-of-legitimacy-2
+Γö£ Γùï /articles/mathematics-and-numerology
+Γö£ Γùï /articles/matrilineal-matriarchal-society-2
+Γö£ Γùï /articles/post-pharaonic-egyptian-history-foretold-hermetica
+Γö£ Γùï /articles/pyramid-power-2
+Γö£ Γùï /articles/sacred-geometry-2
+Γö£ Γùï /articles/sacred-geometry-natural-sciences
+Γö£ Γùï /articles/squaring-the-circle-2
+Γö£ Γùï /articles/stylistic-ornamentation-and-decoration-2
+Γö£ Γùï /articles/the-actual-incredible-remote-age-of-ancient-egypt-2
+Γö£ Γùï /articles/the-cosmic-proportion-of-the-human-figure-2
+Γö£ Γùï /articles/the-cultured-egyptian-language
+Γö£ Γùï /articles/the-cyclical-renewal-festivals-2
+Γö£ Γùï /articles/the-dual-overseeing-administration-system-2
+Γö£ Γùï /articles/the-egyptian-alphabetic-writing-styles
+Γö£ Γùï /articles/the-egyptian-alphabetical-form-of-writing
+Γö£ Γùï /articles/the-flawed-common-construction-theory-of-the-pyramids-2
+Γö£ Γùï /articles/the-function-objective-of-the-temple-2
+Γö£ Γùï /articles/the-harmonic-design-parameters-2
+Γö£ Γùï /articles/the-imagery-and-alphabetical-writing-modes-2
+Γö£ Γùï /articles/the-metaphysical-funnel-conduit-design-2
+Γö£ Γùï /articles/the-original-universal-language
+Γö£ Γùï /articles/the-perfect-egyptian-calendar-2
+Γö£ Γùï /articles/the-pharaoh-s-role-the-master-servant
+Γö£ Γùï /articles/the-physical-metaphysical-society-2
+Γö£ Γùï /articles/the-sacred-ratios
+Γö£ Γùï /articles/the-synthetic-concrete-blocks-of-the-pyramids-2
+Γö£ Γùï /articles/the-two-lands-2
+Γö£ Γùï /documentaries/egyptian-musical-treasure-documentary
+Γöö Γùï /photo-library
+
+
+Γùï  (Static)  prerendered as static content
+ΓùÅ  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

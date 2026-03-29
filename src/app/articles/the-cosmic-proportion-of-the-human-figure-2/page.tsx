@@ -62,7 +62,7 @@ export default function HumanProportionPage() {
                     </p>
                 </div>
 
-                <ol className="list-decimal pr-6 space-y-4 mb-10" start="2">
+                <ol className="list-decimal pr-6 space-y-4 mb-10" start={2}>
                     <li className="font-bold text-ewc-navy">
                         بين الجزأين والوحدة الكلية (الارتفاع المقدس) وباتخاذ الارتفاع الكامل (حتى منبت شعر رأس الإنسان الأرضي) الرقم 1:
                         <p className="mt-4 font-normal text-gray-700 leading-relaxed">
