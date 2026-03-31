@@ -9,9 +9,12 @@ export default function SyntheticConcretePage() {
     return (
         <article className="px-8 py-16 max-w-4xl mx-auto bg-white my-8 shadow-sm rounded-lg border border-gray-100 animate-fade-in" dir="rtl">
             <header className="mb-10 text-center">
-                <h1 className="text-2xl md:text-3xl lg:text-4xl font-heading text-ewc-blue mb-6 leading-loose text-balance">
-                    أحجار الأهرامات الأسمنت المصنعة
+                <h1 className="text-2xl md:text-3xl lg:text-4xl font-heading text-ewc-blue mb-4 leading-loose text-balance text-center">
+                    العمارة المصرية
                 </h1>
+                <p className="text-xl md:text-2xl font-heading text-ewc-gold mb-6 text-center">
+                    أحجار الأهرامات الأسمنت المصنعة
+                </p>
                 <div className="w-24 h-1 bg-ewc-red mx-auto"></div>
             </header>
 

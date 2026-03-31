@@ -1,44 +1,14 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-12 pb-16 animate-fade-in">
-      {/* Hero Section */}
-      <section className="flex flex-col md:flex-row items-center gap-16 px-8 py-16 bg-white border-b border-gray-100">
-        <div className="flex-1 space-y-8">
-          <div className="space-y-4">
-            <h1 className="text-xl md:text-2xl lg:text-3xl font-heading text-ewc-blue leading-loose max-w-full">
-              منصتكم التعليمية المتكاملة حول حضارة مصر القديمة
-            </h1>
-            <p className="text-lg md:text-xl font-sans text-ewc-gold font-medium mb-4">
-              دراسات معمقة ورؤى مترابطة
-            </p>
-          </div>
-          <p className="text-xl text-gray-700 leading-relaxed font-sans max-w-2xl">
-            ستندهش حين تكتشف كيف ترتكز الحضارة الحديثة بقوة على أكتاف مصر القديمة.
-            يقدم هذا الموقع طريقين رئيسيين للتعلم، بأكثر من 10 لغات:
-          </p>
-          <ul className="text-lg text-gray-700 leading-relaxed font-sans max-w-2xl list-disc pr-6 space-y-2">
-            <li><strong>مجموعة غنية من المقالات المجانية:</strong> بقلم مصطفى جاد الله. يمكنك الوصول إليها عبر رابط "المقالات" (Articles) في القائمة.</li>
-            <li><strong>روابط لموقع مكمل:</strong> حيث يمكنك شراء العديد من كتب مصطفى جاد الله، والمتوفرة بعدة لغات. راجع رابط "كتبنا" (Our Books) في القائمة أعلاه.</li>
-          </ul>
-          <p className="text-xl text-gray-700 leading-relaxed font-sans max-w-2xl">
-            استمتع بهذه الرؤية العميقة والشيقة لثقافة وحكمة مصر القديمة.
-          </p>
-          <div className="pt-6">
-            <Link
-              href="/articles"
-              className="inline-block bg-ewc-blue text-white px-8 py-4 rounded-md font-sans font-bold text-lg hover:bg-ewc-navy transition-all shadow-[0_4px_14px_0_rgba(47,99,157,0.39)] hover:shadow-[0_6px_20px_rgba(47,99,157,0.23)] hover:-translate-y-1"
-            >
-              ابدأ القراءة الآن
-            </Link>
-          </div>
-        </div>
-
-        {/* Decorative Image Area */}
-        <div className="flex-1 w-full max-w-lg mx-auto flex justify-center">
-          <div className="relative w-full aspect-[4/5] flex flex-col items-center justify-center overflow-hidden group">
+    <div className="flex flex-col h-[calc(100vh-160px)] animate-fade-in py-0 overflow-hidden" dir="rtl">
+      {/* Minimal Hero Section */}
+      <section className="flex-grow flex flex-col md:flex-row items-center gap-12 md:gap-20 px-8 py-4 max-w-5xl mx-auto w-full">
+        
+        {/* Brand Image Area - Left side */}
+        <div className="flex-1 w-full max-w-md order-2 md:order-1 flex justify-center h-full max-h-[60vh] md:max-h-full">
+          <div className="relative w-full h-full flex items-center justify-center">
             <Image
               src="/header-background-transparent.webp"
               alt="Egyptian Wisdom Center"
@@ -48,9 +18,30 @@ export default function Home() {
             />
           </div>
         </div>
+
+        {/* Quotes Area - Right side */}
+        <div className="flex-1 space-y-8 md:space-y-12 order-1 md:order-2 py-4">
+          {/* Proverb 1 */}
+          <div className="space-y-2">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading text-ewc-blue leading-tight tracking-tight">
+              "من فات قديمه تاه"
+            </h1>
+            <p className="text-xl md:text-2xl font-sans text-ewc-gold font-bold">
+              — مَثَل مصري
+            </p>
+          </div>
+
+          {/* Quote 2 */}
+          <div className="space-y-2">
+            <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading text-ewc-blue/90 leading-tight italic">
+              "لو لم أكن مصريًا، لوددت أن أكون مصريًا"
+            </h2>
+            <p className="text-lg md:text-xl font-sans text-ewc-gold font-bold">
+               — مصطفى كامل
+            </p>
+          </div>
+        </div>
       </section>
-
-
     </div>
   );
 }

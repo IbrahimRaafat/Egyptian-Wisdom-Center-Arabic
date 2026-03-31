@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Diplomata, Tajawal } from "next/font/google";
+import { Cairo, Tajawal } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
-const diplomata = Diplomata({
-  variable: "--font-diplomata",
-  weight: "400",
-  subsets: ["latin"],
+const cairo = Cairo({
+  variable: "--font-cairo",
+  weight: ["400", "700", "900"],
+  subsets: ["arabic"],
 });
 
 const tajawal = Tajawal({
@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl">
       <body
-        className={`${diplomata.variable} ${tajawal.variable} antialiased bg-gray-50 min-h-screen text-gray-800 font-sans`}
+        className={`${cairo.variable} ${tajawal.variable} antialiased bg-gray-50 min-h-screen text-gray-800 font-sans`}
       >
         <div className="w-full max-w-[1200px] mx-auto bg-white min-h-screen shadow-[0_0_30px_rgba(47,99,157,0.15)] flex flex-col px-4 md:px-0">
           <Header />

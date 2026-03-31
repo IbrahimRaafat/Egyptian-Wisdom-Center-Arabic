@@ -9,9 +9,12 @@ export default function AstronomicalConsciousnessPage() {
     return (
         <article className="px-4 md:px-8 py-10 md:py-16 max-w-4xl mx-auto bg-white my-4 md:my-8 shadow-sm rounded-lg border border-gray-100 animate-fade-in">
             <header className="mb-10 text-center">
-                <h1 className="text-2xl md:text-3xl lg:text-4xl font-heading text-ewc-blue mb-6 leading-loose text-balance">
-                    الوعي الفلكي
+                <h1 className="text-2xl md:text-3xl lg:text-4xl font-heading text-ewc-blue mb-4 leading-loose text-balance">
+                    المصريون القدماء المتعلمون
                 </h1>
+                <p className="text-xl md:text-2xl font-heading text-ewc-gold mb-6">
+                    الوعي الفلكي
+                </p>
                 <div className="w-24 h-1 bg-ewc-red mx-auto"></div>
             </header>
 
@@ -53,7 +56,7 @@ export default function AstronomicalConsciousnessPage() {
                 <br />
                 <p>القانون الثالث: تتناسب مربعات دورات الكواكب مع مكعبات محاورها الشبه رئيسية.</p>
                 <br />
-                <p>لا يمكن تحديد القوانين التي توضح العلاقات بين الكواكب والمسافات وتغير السرعة وترتيب المدار... الخ دون إجراءات رصد لقياسات وتسجيلات وتحليلات بشكل منتظم؛ ولم يوضح لنا أي من الأكاديميين الغربيين كيف توصل كيبلر من العدم إلى هذه القوانين. ولكن في الواقع تفاخر كبلر بنفسه في نهاية كتابه الخامس من سلسلة "توافق العالم" بأنه أعاد اكتشاف قوانين مصر المفقودة كما يلي: @</p>
+                <p>لا يمكن تحديد القوانين التي توضح العلاقات بين الكواكب والمسافات وتغير السرعة وترتيب المدار... الخ دون إجراءات رصد لقياسات وتسجيلات وتحليلات بشكل منتظم؛ ولم يوضح لنا أي من الأكاديميين الغربيين كيف توصل كيبلر من العدم إلى هذه القوانين. ولكن في الواقع تفاخر كبلر بنفسه في نهاية كتابه الخامس من سلسلة "توافق العالم" بأنه أعاد اكتشاف قوانين مصر المفقودة كما يلي: </p>
                 <br />
                 <p><strong>"الآن بعد ثمانية عشر شهرًا من بزوغ الفجر وثلاثة أشهر من حلول النهار الحقيقي وأيام قليلة منذ بدء إشراق شمس تلك الدراسة العجيبة لا شيء يمنعني، بل ويسعدني أن أنقاد إلى هذا الإلهام الجامح وأن أسخر من البشر الفاني الذين يقولون أنني أسرق أواني المصريين الذهبية لأبني منها مذبحًا لإلهي بعيدًا عن حدود مصر".</strong></p>
                 <br />
