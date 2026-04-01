@@ -56,7 +56,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
             </div>
 
             <div className="mt-12 pt-8 border-t border-gray-100 text-center">
-                <Link href="/articles" className="inline-block px-8 py-3 bg-ewc-navy text-white rounded font-bold hover:bg-ewc-blue transition-colors text-sm">
+                <Link href="/articles" className="inline-block px-8 py-3 bg-ewc-brand text-white rounded font-bold hover:brightness-110 transition-colors text-sm">
                     العودة إلى جميع المقالات
                 </Link>
             </div>

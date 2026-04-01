@@ -6,7 +6,7 @@ export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <header className="sticky top-0 z-50 bg-ewc-blue shadow-[0_4px_20px_rgba(0,0,0,0.1)]">
+        <header className="sticky top-0 z-50 bg-ewc-brand shadow-[0_4px_20px_rgba(0,0,0,0.1)]">
             <div className="flex items-center gap-12 px-8 py-4 md:py-6 max-w-[1200px] mx-auto">
                 {/* Logo Area */}
                 <div className="flex-shrink-0">
@@ -76,7 +76,7 @@ export default function Header() {
 
             {/* Mobile Navigation Drawer */}
             {isMenuOpen && (
-                <div className="lg:hidden bg-ewc-blue border-t border-white/10 shadow-inner px-4 py-8 font-sans">
+                <div className="lg:hidden bg-ewc-brand border-t border-white/10 shadow-inner px-4 py-8 font-sans">
                     <div className="flex flex-col gap-5 text-white/95 font-semibold">
                         <Link href="/articles" className="py-3 border-b border-white/5 hover:text-ewc-gold" onClick={() => setIsMenuOpen(false)}>المقالات</Link>
                         {/* <Link href="/performing-arts" className="py-3 border-b border-white/5 hover:text-ewc-gold" onClick={() => setIsMenuOpen(false)}>الفنون المسرحية</Link> */}

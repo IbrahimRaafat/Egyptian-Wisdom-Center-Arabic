@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-ewc-blue: #4372a7;
-  --color-ewc-navy: #4372a7;
+  --color-ewc-blue: #102a43;
+  --color-ewc-navy: #102a43;
+  --color-ewc-brand: #4372a7;
   --color-ewc-gold: #dbae89;
   --color-ewc-red: #ff0000;
   --font-heading: var(--font-cairo);

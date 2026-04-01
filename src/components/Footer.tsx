@@ -2,7 +2,7 @@
 
 export default function Footer() {
     return (
-        <footer className="bg-ewc-navy text-white text-center py-6 mt-auto">
+        <footer className="bg-ewc-brand text-white text-center py-6 mt-auto">
             <div className="container mx-auto px-4">
                 <p className="font-sans text-sm mb-2">
                     © {new Date().getFullYear()} مركز الحكمة المصري. جميع الحقوق محفوظة.
